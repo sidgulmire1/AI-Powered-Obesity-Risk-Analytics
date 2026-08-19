@@ -1,0 +1,73 @@
+/* Custom Card Layout - Scoped purely to custom HTML components */
+.analytics-card {
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    margin-bottom: 1.5rem;
+}
+
+.prediction-card {
+    border-top: 4px solid #0F766E;
+    text-align: center;
+}
+
+.metric-header {
+    font-size: 0.9rem;
+    color: #374151;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.75rem;
+}
+
+.metric-value {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #173B2B;
+    line-height: 1;
+}
+
+.metric-unit {
+    font-size: 1.5rem;
+    color: #0F766E;
+    font-weight: 600;
+    margin-left: 0.2rem;
+}
+
+.profile-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #173B2B;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #E5E7EB;
+    padding-bottom: 0.5rem;
+}
+
+.profile-row {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #F3F4F6;
+}
+
+.profile-row:last-child {
+    border-bottom: none;
+}
+
+.pipeline-container {
+    background-color: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 0.85rem;
+    color: #4B5563;
+    text-align: center;
+    font-family: monospace;
+}
+
+.pipeline-title {
+    font-weight: 600;
+    color: #173B2B;
+    margin-bottom: 0.5rem;
+    font-family: sans-serif;
+}
